@@ -1,20 +1,25 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
+<ion-header collapse="condense" [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title size="large">
+      Você é corno ?
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+  <ion-header >
+    <ion-toolbar color="primary">
+      <ion-title size="large">Você é corno ?</ion-title>
     </ion-toolbar>
   </ion-header>
 
+  <h1 align="center">Teste de corno atualizado 2024!</h1>
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <p>Teste para saber se você é corno atualizado 2024 e homologado pela anvisa, se você tem duvidas ou desconfia que 2 grandes chifres estão crecendo em sua cabeça<br>Este teste é 100% confiavel, nunca falha!<br></p>
+    <img src="https://segredosdomundo.r7.com/wp-content/uploads/2020/03/corno-origem-do-termo-e-o-que-significa-ser-corno.jpg">
+ 
+    <ion-button color="danger" (click)="clickButtonHomePage()">Testar agora!</ion-button>
+    <h1>Resultado: {{message}}</h1>
   </div>
+
 </ion-content>
